@@ -16,6 +16,8 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/material-kit-react/components/headerStyle.js";
 
+import logo from "assets/img/logo.png";
+
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
@@ -64,6 +66,7 @@ export default function Header(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
+        <img src={logo} alt="logo" />
         {leftLinks !== undefined ? brandComponent : null}
         <div className={classes.flex}>
           {leftLinks !== undefined ? (

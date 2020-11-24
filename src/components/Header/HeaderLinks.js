@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Apps, CloudDownload, Layers } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -33,7 +33,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Products
+          <CloudDownload className={classes.icons} /> Services
     </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -43,7 +43,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Work with us
+          <Layers className={classes.icons} />Portfolio
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

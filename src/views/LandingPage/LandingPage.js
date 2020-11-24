@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Inspirante Technologies Pvt Ltd"
+        brand="Inspirante Technologies"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
