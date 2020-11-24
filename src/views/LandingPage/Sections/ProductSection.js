@@ -6,6 +6,12 @@ import { makeStyles } from "@material-ui/core/styles";
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
+import DevicesTwoToneIcon from '@material-ui/icons/DevicesTwoTone';
+import PhoneAndroidTwoToneIcon from '@material-ui/icons/PhoneAndroidTwoTone';
+import BarChartIcon from '@material-ui/icons/BarChart';
+import HomeWorkIcon from '@material-ui/icons/HomeWork';
+import InvertColorsIcon from '@material-ui/icons/InvertColors';
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -35,27 +41,59 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
+              title="Web Development"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
+              icon={DevicesTwoToneIcon}
               iconColor="info"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
+              title="Mobile App Development"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
+              icon={PhoneAndroidTwoToneIcon}
               iconColor="success"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
+              title="Machine Learning"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
+              icon={Chat}
+              iconColor="danger"
+              vertical
+            />
+          </GridItem>
+        </GridContainer>
+      </div>
+
+      <div>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="Analytics & BI tools"
+              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              icon={BarChartIcon}
+              iconColor="info"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="IOT"
+              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              icon={HomeWorkIcon}
+              iconColor="success"
+              vertical
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <InfoArea
+              title="UI/UX Designing"
+              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              icon={InvertColorsIcon}
               iconColor="danger"
               vertical
             />
