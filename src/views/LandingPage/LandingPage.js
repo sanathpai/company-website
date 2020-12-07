@@ -22,9 +22,19 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
+//Chatbot
+// import styled from 'styled-components'
+import ChatBot from "./Sections/CustomChatBot.js";
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
+
+const fabStyle = {
+  position: 'fixed',
+  bottom: 8,
+  right: 16
+};
 
 export default function LandingPage(props) {
   const classes = useStyles();
@@ -43,6 +53,7 @@ export default function LandingPage(props) {
         }}
 
       />
+
       <Parallax filter image={require("assets/img/landing-computer2.png")}>
         <div className={classes.container}>
           <GridContainer>
@@ -70,6 +81,7 @@ export default function LandingPage(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
+        <ChatBot/>
         <div className={classes.container}>
           <ProductSection />
           <TeamSection />
