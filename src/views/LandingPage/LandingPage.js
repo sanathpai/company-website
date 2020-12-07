@@ -21,6 +21,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
+import Portfolio from "./Sections/Portfolio.js";
 
 //Chatbot
 // import styled from 'styled-components'
@@ -84,6 +85,7 @@ export default function LandingPage(props) {
         <ChatBot/>
         <div className={classes.container}>
           <ProductSection />
+          <Portfolio />
           <TeamSection />
           <WorkSection />
         </div>
