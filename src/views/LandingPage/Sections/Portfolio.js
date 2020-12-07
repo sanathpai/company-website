@@ -39,12 +39,10 @@ export default function Portfolio() {
               <CardBody>
                 <p className={classes.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <GridItem xs={12} sm={12} md={4} alignItems="center">
-                     <Button variant="outlined" size="large" color="primary" className={classes.margin}>
+                </p><br/><br/>
+                <Button variant="outlined" size="large" color="primary">
                         Our works so far!!
-                    </Button>
-                </GridItem>
+                </Button>
               </CardBody>
             </Card>
           </GridItem>
