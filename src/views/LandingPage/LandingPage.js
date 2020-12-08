@@ -22,6 +22,7 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 import Portfolio from "./Sections/Portfolio.js";
+import Client from "./Sections/Client.js";
 
 //Chatbot
 // import styled from 'styled-components'
@@ -86,6 +87,8 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <Portfolio />
+          
+          <Client />
           <TeamSection />
           <WorkSection />
         </div>
